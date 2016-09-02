@@ -1,20 +1,15 @@
 <div>
-  <div>
+  <ul>
     {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a href="{{ site.baseurl }}/">‹ {{ site.var_newer }}</a>
-      {% else %}
-        <a href="{{ site.baseurl }}/page-{{paginator.previous_page}}/">‹ {{ site.var_newer }}</a>
-      {% endif %}
+      <li><a href="{{ paginator.previous_page_path }}">{{ site.var_previous_post }}</a></li>
     {% else %}
-      <span>‹ {{ site.var_newer }}</span>
+      <li><span>{{ site.var_previous_post }}</span></li>
     {% endif %}
-  </div>
-  <div>
+    <li><span>{{ site.var_page_indicator }} {{  paginator.page }} {{ site.var_page_indicator_separator }} {{ paginator.total_pages }}</span></li>
     {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}/page-{{paginator.next_page}}/">{{ site.var_older }} ›</a>
+      <li><a href="{{ paginator.next_page_path }}">{{ site.var_next_post }}</a></li>
     {% else %}
-      <span>{{ site.var_older }} ›</span>
+      <li><span>{{ site.var_next_post }}</span></li>
     {% endif %}
-  </div>
+  </ul>
 </div>

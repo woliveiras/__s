@@ -5,7 +5,25 @@ description: Faster to start a new Jekyll theme # put your description for your 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site e.g. https://woliveiras.com.br
 language: "en" # language to set into html tag
-paginate: 5 # Number of posts on each page.
+paginate: 5 # Number of posts on each page
+paginate_path: "/page/:num"
+
+# Useful for translating into other languages.
+
+var_on_the_web: On the web
+var_read: Continue...
+var_newer: Newers
+var_older: Olders
+var_next_post: Next
+var_previous_post: Previous
+var_less_than_a_minute_read: < 1 min read
+var_min_read: min read # Text after reading time. Example: 5 min read.
+var_post_by: Writed by
+var_guest_post_by: Guest post by
+var_your_email: Your mail
+var_your_message: Your message
+var_page_indicator: Page
+var_page_indicator_separator: of
 
 # User settings
 
