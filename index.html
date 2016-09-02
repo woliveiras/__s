@@ -5,10 +5,6 @@ home: true
 
 {% include header.html %}
 
-<h1>DUNDERS A STARTER THEME FOR JEKYLL</h1>
-
-{% include navigation-menu.html %}
-
 {% for post in paginator.posts %}
 
 {% assign minutes = post.content | number_of_words | divided_by: 180 %}
