@@ -1,0 +1,41 @@
+# Site settings
+
+title: Dunders | A Starter Theme for Jekyll # put your blog title
+description: Faster to start a new Jekyll theme # put your description for your amazing blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site e.g. https://woliveiras.com.br
+language: "en" # language to set into html tag
+
+# User settings
+
+author: dunders # put your name or a name of principal author of site/blog
+email: dunders@dunders.com
+twitter_username: dunders
+github_username:  dunders
+gplus_username:  dunders
+disqus_shortname: dunders_website
+
+# Navigation menu
+links:
+  - title: Home
+    url: /
+  - title: About Me
+    url: /about
+
+# Build settings
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+## For more settings: https://jekyllrb.com/docs/configuration/
+
+# # html minify
+# compress_html:
+#   clippings: all
+#   comments: all
+#   endings: []
+#   profile: false
+
+# exclude files if no need build
+exclude: ['package.json', 'node_modules']
