@@ -5,6 +5,7 @@ description: Faster to start a new Jekyll theme # put your description for your 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site e.g. https://woliveiras.com.br
 language: "en" # language to set into html tag
+paginate: 5 # Number of posts on each page.
 
 # User settings
 
@@ -38,4 +39,7 @@ permalink: /:title/
 #   profile: false
 
 # exclude files if no need build
-exclude: ['package.json', 'node_modules']
+exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
+
+# Gems
+gems: [jekyll-paginate]
