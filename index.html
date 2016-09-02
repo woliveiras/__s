@@ -19,8 +19,10 @@ home: true
 {% endif %}
 
   <article>
-    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title">{{ post.title }}</h2></a>
-    <span class="meta">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h2>{{ post.title }}</h2>
+      </a>
+    <span>
       {% if site.display-author-front-page %}
         {% if post.author.name %}
           {{ post.author.name }} •
@@ -33,9 +35,9 @@ home: true
       {{ post.date | date: site.date_format }} • {{ read-time }}</span>
       <p>
       {% if post.summary %}
-        {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
+        {{ post.summary }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
       {% else %}
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
+        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
       {% endif %}
       </p>
 
