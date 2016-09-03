@@ -9,13 +9,13 @@ __s, or dunders, is a simple Jekyll Starter Theme.
 Add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "_s"
+gem "dunders"
 ```
 
 And add this line to your Jekyll site:
 
 ```yaml
-theme: _s
+theme: dunders
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install _s
+    $ gem install dunders
 
 ## Usage
 
