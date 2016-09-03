@@ -2,12 +2,8 @@
 layout: default
 ---
 
-{% include header.html %}
-
   {{ content }}
 
   {% if site.disqus_shortname %}
     {% include comments.html %}
   {% endif %}
-
-{% include footer.html %}
