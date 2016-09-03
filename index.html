@@ -28,14 +28,11 @@ home: true
       {% endif %}
       {{ post.date | date: site.date_format }} • {{ read-time }}
       </span>
-      <p>
-      {% if post.summary %}
-        {{ post.summary }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
-      {% else %}
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
-      {% endif %}
-      </p>
+      <p>{{ post.content | strip_html | truncatewords:140 }}</p>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →
       <span><a href="{{ post.url }}#disqus_thread"></a></span>
+      <div>
+      </div>
   </article>
 {% endfor %}
 
