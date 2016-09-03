@@ -54,18 +54,12 @@ links:
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+sitemap: true # Generate sitemap.xml
 
 ## For more settings: https://jekyllrb.com/docs/configuration/
-
-# # html minify
-# compress_html:
-#   clippings: all
-#   comments: all
-#   endings: []
-#   profile: false
 
 # exclude files if no need build
 exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
