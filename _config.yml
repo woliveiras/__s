@@ -42,6 +42,8 @@ links:
     url: /
   - title: About Me
     url: /about
+  - title: Archive
+    url: /archive
 
 # Build settings
 
