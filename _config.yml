@@ -44,6 +44,8 @@ links:
     url: /about
   - title: Archive
     url: /archive
+  - title: Contact
+    url: /contact
 
 # Build settings
 
