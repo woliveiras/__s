@@ -48,6 +48,8 @@ links:
     url: /archive
   - title: Contact
     url: /contact
+  - title: Categories
+    url: /categories
 
 # Build settings
 
