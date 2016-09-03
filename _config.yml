@@ -57,6 +57,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 sitemap: true # Generate sitemap.xml
+feed:
+  path: atom.xml
 
 ## For more settings: https://jekyllrb.com/docs/configuration/
 
@@ -64,4 +66,4 @@ sitemap: true # Generate sitemap.xml
 exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
