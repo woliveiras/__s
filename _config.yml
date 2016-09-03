@@ -9,6 +9,8 @@ paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
 timezone:  # timezone to show in yout sire
+display-author-front-page: # True if you need show author name and site on home page
+display-author-post-page: true # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
 
 # Useful for translating into other languages.
 
