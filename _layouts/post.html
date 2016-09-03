@@ -4,6 +4,13 @@ layout: default
 
   {{ content }}
 
+<span><a href="{{ page.url }}#disqus_thread"></a></span>
+<div>
+  {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+  {% endfor %}
+</div>
+
   {% if site.disqus_shortname %}
     {% include comments.html %}
   {% endif %}
