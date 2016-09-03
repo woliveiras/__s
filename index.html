@@ -3,8 +3,6 @@ layout: default
 home: true
 ---
 
-{% include header.html %}
-
 {% for post in paginator.posts %}
 
 {% assign minutes = post.content | number_of_words | divided_by: 180 %}
@@ -28,7 +26,8 @@ home: true
           {% endif %}
         {% endif %}
       {% endif %}
-      {{ post.date | date: site.date_format }} • {{ read-time }}</span>
+      {{ post.date | date: site.date_format }} • {{ read-time }}
+      </span>
       <p>
       {% if post.summary %}
         {{ post.summary }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
@@ -36,12 +35,10 @@ home: true
         {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
       {% endif %}
       </p>
-
+      <span><a href="{{ post.url }}#disqus_thread"></a></span>
   </article>
 {% endfor %}
 
 {% if paginator.previous_page or paginator.next_page %}
   {% include pagination.html %}
 {% endif %}
-
-{% include footer.html %}
