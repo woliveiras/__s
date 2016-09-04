@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "dunders"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.0"
   spec.authors       = ["woliveiras"]
   spec.email         = ["w.oliveira542@gmail.com"]
 
@@ -13,7 +13,20 @@ Gem::Specification.new do |spec|
 
   spec.metadata["plugin_type"] = "theme"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
+  spec.files         = Dir[
+    "about.md",
+    "archive.html",
+    "categories.html",
+    "contact.html",
+    "index.html",
+    "tags.html",
+    "LICENSE",
+    "robots.txt",
+    "_config.yml",
+    "README.md",
+    "screenshot.png",
+    "{assets,_includes,_layouts,_sass}/**/*"
+  ]
 
   spec.add_development_dependency "jekyll", "~> 3.2"
   spec.add_development_dependency "bundler", "~> 1.12"

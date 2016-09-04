@@ -1,1 +1,0 @@
-file to test https://talk.jekyllrb.com/t/i-need-help-to-provide-my-jekyll-theme-in-rubygems/2908/3
