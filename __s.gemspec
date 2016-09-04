@@ -29,6 +29,9 @@ Gem::Specification.new do |spec|
     "{assets,_includes,_layouts,_sass}/**/*"
   ] & `git ls-files -z`.split("\0")
 
+  spec.bindir        = "exe"
+  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+
   spec.add_development_dependency "jekyll", "~> 3.2"
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
