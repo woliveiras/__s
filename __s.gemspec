@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
     "README.md",
     "screenshot.png",
     "{assets,_includes,_layouts,_sass}/**/*"
-  ]
+  ] & `git ls-files -z`.split("\0")
 
   spec.add_development_dependency "jekyll", "~> 3.2"
   spec.add_development_dependency "bundler", "~> 1.12"
