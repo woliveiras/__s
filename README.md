@@ -1,10 +1,8 @@
-# __s 
-
-<!--[![Gem Version](https://badge.fury.io/rb/dunders.svg)](https://badge.fury.io/rb/dunders)-->
+# __s [![Gem Version](https://badge.fury.io/rb/dunders.svg)](https://badge.fury.io/rb/dunders)
 
 __s, or dunders, is a simple Jekyll Starter Theme.
 
-*The name of this project is a tribute to [Underscore](https://github.com/automattic/_s) project.*
+*The name of this project is a tribute to [Underscores](https://github.com/automattic/_s) project.*
 
 ## Installation
 
