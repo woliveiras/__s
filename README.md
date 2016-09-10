@@ -112,6 +112,10 @@ If you like [Sass](sass-lang.com) writes your styles on this folder!
 - **index.html:** the index of site
 - **robots.txt:** very important for SEO, look [here](http://www.robotstxt.org/robotstxt.html)
 - **screenshot.png:** use this to show a screenshot of your theme on theme sites such as [jekylthemes.org](http://jekyllthemes.org/)
+- 
+## How to write posts
+
+Follow the Jekyll workflow: https://jekyllrb.com/docs/posts/
 
 ## Dunders configuration
 
