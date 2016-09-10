@@ -1,8 +1,8 @@
-# __s
-
 <p align="center">
     <img src="/assets/images/icons/favicon-96x96.png" alt="Dunders logo">
 </p>
+
+# __s
 
 __s, or dunders, is a clean Jekyll Starter Theme.
 
