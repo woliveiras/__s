@@ -8,6 +8,7 @@ language: "" # language to set into html tag, default is en
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 date_format: "%b %-d, %Y"  # dateformat of reading list, post date, and more
+permalink: /:title/ # use to url friendly
 timezone:  # timezone to show in yout sire
 display-author-front-page: # True if you need show author name and site on home page
 display-author-post-page: true # Very usual for guest posts and the infos of author are writen in header of post.md, by default show infos of user settings
@@ -55,7 +56,6 @@ links:
 
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
 sitemap: true # Generate sitemap.xml
 feed:
   path: atom.xml
