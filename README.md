@@ -4,7 +4,7 @@
     <img src="/assets/images/icons/favicon-96x96.png" alt="Dunders logo">
 </p>
 
-__s, or dunders, is a simple Jekyll Starter Theme.
+__s, or dunders, is a clean Jekyll Starter Theme.
 
 *The name of this project is a tribute to [Underscores](https://github.com/automattic/_s) project.*
 
