@@ -8,6 +8,10 @@ __s, or dunders, is a simple Jekyll Starter Theme.
 
 *The name of this project is a tribute to [Underscores](https://github.com/automattic/_s) project.*
 
+## What a hell is dunder?
+
+Dunder is [double underscore](https://wiki.python.org/moin/DunderAlias), used in Python codes.
+
 ## Why I create Dunders?
 
 Whenever I search for a Jekyll Theme I found some project with [Bootstrap](http://getbootstrap.com/), [jQuery](https://jquery.com/) or a structure of theme a little disorganized. I dont like disorder. :/
