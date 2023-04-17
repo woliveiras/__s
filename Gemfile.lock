@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dunders (1.0.3)
+    dunders (1.0.4)
 
 GEM
   remote: https://rubygems.org/
@@ -9,7 +9,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
-    ffi (1.9.18)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     jekyll (3.6.2)
       addressable (~> 2.4)
